@@ -4,7 +4,7 @@ import java.util.*;
 
 public class TSP {
 
-    private String data_path= "/Users/liufulai/Desktop/INFO6205_nn/src/CityData.csv";
+    private String data_path= "/Users/victor/Desktop/INFO6205_nn/src/CityData.csv";
     private String data_separator = " ";
 
     private Entity[] entities;
@@ -36,11 +36,14 @@ public class TSP {
 
     private void initEntities(List<Integer> cityNo){
         this.entities = new Entity[Config.entity_number];
+
         for(int i=0; i<Config.entity_number; i++){
+
             Collections.shuffle(cityNo);
-            while(isExist(cityNo, entities)){
+
+           // while(isExist(cityNo, entities)){
                 Collections.shuffle(cityNo);
-            }
+            //}
 
             this.entities[i] = new Entity(cityNo);
             this.entities[i].totalLength = this.calLength(cityNo);
@@ -52,9 +55,10 @@ public class TSP {
 
     private boolean isExist(List<Integer> randomCity, Entity[] entities){
         for(int i=0; i<entities.length; i++){
-            if(entities == null){
+            if(entities[i] == null){
                 return false;
             }else{
+
                 List<Integer> target = entities[i].cities;
                 for(int j=0; j<target.size(); ++j){
                     if(randomCity.get(j) != target.get(j)){
@@ -113,8 +117,11 @@ public class TSP {
     private void oneHybridization(){
         //get mother and father
         Entity father = this.getEntity();
+
         Entity mother = this.getEntity();
+
         Entity best = this.getBestParent();
+
 
         while(father == null || father.equals(best)){
             father = this.getEntity();
@@ -131,6 +138,7 @@ public class TSP {
 
         //get swap location
         Random random = new Random();
+        //System.out.println("141");
         int crossStartIndex = random.nextInt(Config.city_number - 1) + 1;
         int crossEndIndex = random.nextInt(Config.city_number - 1) + 1;
         while(crossEndIndex == crossStartIndex){
@@ -141,10 +149,11 @@ public class TSP {
             crossEndIndex = crossStartIndex;
             crossStartIndex = temp;
         }
-
+        //System.out.println("152");
         //swap
         Entity[] newEntity = this.swapAndNoConflict(father, mother, crossStartIndex, crossEndIndex);
         for(Entity entity: newEntity){
+
             if(entity != null
                     && !isExist(entity.cities, entityListToEntityArrray(this.sonEntities))
                     && !isExist(entity.cities, this.entities)){
@@ -156,9 +165,9 @@ public class TSP {
     }
 
     private Entity getBestParent(){
-        if(this.entities == null){
+        if(this.bestEntity == null){
             Entity bestParent = this.entities[0].clone();
-            for(int i=1; i<this.entities.length; i++){
+            for(int i=1; i<this.entities.length; ++i){
                 if(this.entities[i].totalLength < bestParent.totalLength){
                     bestParent = this.entities[i].clone();
                 }
@@ -170,6 +179,7 @@ public class TSP {
     }
 
     private Entity[] swapAndNoConflict(Entity father, Entity mother, int startIndex, int endIndex){
+
         Entity[] newEntities = new Entity[2];
         Entity fatherClone = father.clone();
         Entity motherClone = mother.clone();
@@ -177,23 +187,30 @@ public class TSP {
         Map<Integer, Integer> motherCityRelation = new HashMap<>();
         for(int i=0; i<Config.city_number; i++){
             if(i>=startIndex && i<=endIndex){
+
                 int temp = fatherClone.cities.get(i);
                 fatherClone.cities.set(i, motherClone.cities.get(i));
-                motherClone.cities.set(i, fatherClone.cities.get(i));
+                motherClone.cities.set(i, temp);
+
                 fatherCityRealtion.put(fatherClone.cities.get(i), motherClone.cities.get(i));
                 motherCityRelation.put(motherClone.cities.get(i), fatherClone.cities.get(i));
             }
         }
+
         this.handleConflict(fatherClone, fatherCityRealtion, startIndex, endIndex);
         this.handleConflict(motherClone, motherCityRelation, startIndex, endIndex);
         newEntities[0] = fatherClone;
         newEntities[1] = motherClone;
+
         return newEntities;
     }
 
     public void handleConflict(Entity entity, Map<Integer, Integer> cityRelation, int start, int end){
+
         while(conflictExist(entity, cityRelation, start, end)){
-            for(int i=0; i<entity.cities.size(); i++){
+
+            for(int i=0; i<entity.cities.size(); ++i){
+
                 if(i<start || i>end){
                     int temp = entity.cities.get(i);
                     if(cityRelation.containsKey(temp)){
@@ -208,10 +225,12 @@ public class TSP {
         for(int i=0; i<entity.cities.size(); i++){
             if(i<start || i>end){
                 if(cityRelation.containsKey(entity.cities.get(i))){
+
                     return true;
                 }
             }
         }
+
         return false;
     }
 
@@ -262,6 +281,7 @@ public class TSP {
         boolean isUpdate = false;
         for(int i=0; i<this.entities.length; i++){
             if(this.entities[i].totalLength < this.minLength){
+                pppString("IN choose function");
                 this.bestEntity = this.entities[i].clone();
                 this.bestEntity.reproducePrecent = this.entities[i].reproducePrecent;
                 this.minLength = this.entities[i].totalLength;
@@ -285,6 +305,7 @@ public class TSP {
         this.cityInfo.addAll(cityList);
         List<Integer> cityNo = new ArrayList<>();
         for(int i=0; i<cityList.size(); i++){
+
             cityNo.add(cityList.get(i).no);
         }
         this.initEntities(cityNo);
@@ -370,13 +391,16 @@ public class TSP {
     public static void main(String[] args){
         try{
             TSP tsp = new TSP();
+            System.out.println("Before init");
             tsp.init();
-            System.out.print("init data:" );
+            System.out.print("After init :" );
             for(int i=0; i<tsp.entities.length; i++) {
-                System.out.println(tsp.entities[i].toString() + " totalLength->" +
+                System.out.println(tsp.entities[i].toString() + " totalLength - > " +
                         tsp.entities[i].totalLength + "reproductPercent - >" + tsp.entities[i].reproducePrecent);
             }
+         //   System.out.println("Before genetic");
                 tsp.genetic();
+            System.out.println("After genetic");
             System.out.println("Global best Solution is"
                     +"\n  Apperence Generation"+tsp.bestInheritance
                     +"\n  The length of Path"+(tsp.minLength/Math.sqrt(10.0))
@@ -390,6 +414,12 @@ public class TSP {
         }
 
 
+    }
+    private void pppint(int o){
+        System.out.println(o);
+    }
+    private void pppString(String o){
+        System.out.println(o);
     }
 
 

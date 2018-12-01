@@ -7,7 +7,7 @@ public class Entity implements Comparable<Entity>{
     public double reproducePrecent;
 
     public Entity(List<Integer> cities) {
-        this.cities = cities;
+        this.cities = new ArrayList<>();
         this.cities.addAll(cities);
     }
 
