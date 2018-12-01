@@ -12,4 +12,13 @@ public class Config {
     //Generations to reproductive maturity: 1 (or 2)
 
 
+
+    public final static double variable_percent = 0.1; //变异概率
+    public final static int inheritance_number = 10000; //遗传次数
+
+    public final static int city_number = 48; //城市数量
+    public final static int entity_number = 1000; //个体数量
+
+
+
 }
