@@ -4,7 +4,7 @@ import java.util.*;
 
 public class TSP {
 
-    private String data_path= "/Users/victor/Desktop/INFO6205_nn/src/CityData.csv";
+    private String data_path= "/Users/liufulai/Desktop/INFO6205_nn/src/CityData.csv";
     private String data_separator = " ";
 
     private Entity[] entities;
