@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2d7885c-2b75-409a-a5a6-17bc7b49e74e" name="Default" comment="Runable Version">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/GA.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Environment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Point.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/TSP.java" afterPath="$PROJECT_DIR$/src/TSP.java" />
+      <change beforePath="$PROJECT_DIR$/Algorithm Project/src/com/company/Config.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Algorithm Project/src/com/company/Enviroment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Algorithm Project/src/com/company/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Algorithm Project/src/com/company/Point.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Chromosome.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/City.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/CityData.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Config.java" afterPath="$PROJECT_DIR$/src/Config.java" />
+      <change beforePath="$PROJECT_DIR$/src/Entity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/GA.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithm.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithmTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/TSP.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,123 +35,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chromosome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chromosome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2614#2615#0" expanded="true" />
-                <element signature="e#2642#2643#0" expanded="true" />
-                <element signature="e#2683#2684#0" expanded="true" />
-                <element signature="e#2717#2718#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TSP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TSP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="61" lean-forward="false" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#13631#13632#0" expanded="true" />
-                <element signature="e#13668#13669#0" expanded="true" />
-                <element signature="e#13706#13707#0" expanded="true" />
-                <element signature="e#13743#13744#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityData.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CityData.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Config.java">
+        <entry file="file://$PROJECT_DIR$/src/GA_Package/Config.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+              <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Entity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1171#1172#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="City.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/City.java">
+        <entry file="file://$PROJECT_DIR$/src/GA_Package/City.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GA.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GA.java">
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Environment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Environment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GeneticAlgorithmTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmTest.java">
+        <entry file="file://$PROJECT_DIR$/src/GA_Package/GeneticAlgorithmTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
               <folding>
-                <element signature="e#138#139#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneticAlgorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-471">
-              <caret line="78" column="14" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,10 +161,14 @@
         <option value="$PROJECT_DIR$/src/City.java" />
         <option value="$PROJECT_DIR$/src/CityData.csv" />
         <option value="$PROJECT_DIR$/src/Entity.java" />
-        <option value="$PROJECT_DIR$/src/Config.java" />
         <option value="$PROJECT_DIR$/src/TSP.java" />
         <option value="$PROJECT_DIR$/src/Boston.java" />
         <option value="$PROJECT_DIR$/src/GA.java" />
+        <option value="$PROJECT_DIR$/Algorithm Project/src/com/company/Point.java" />
+        <option value="$PROJECT_DIR$/Algorithm Project/src/com/company/Enviroment.java" />
+        <option value="$PROJECT_DIR$/src/Config.java" />
+        <option value="$PROJECT_DIR$/src/Point.java" />
+        <option value="$PROJECT_DIR$/src/Environment.java" />
       </list>
     </option>
   </component>
@@ -277,7 +242,31 @@
             <path>
               <item name="GAProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="INFO6205_nn" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INFO6205_nn" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INFO6205_nn" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="INFO6205_nn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INFO6205_nn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INFO6205_nn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="GA_Package" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,6 +285,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/liufulai/Desktop/INFO6205_nn/src/Config.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/GA_Package" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -454,7 +448,7 @@
       <workItem from="1543611027765" duration="11282000" />
       <workItem from="1543626707459" duration="4515000" />
       <workItem from="1543639356916" duration="936000" />
-      <workItem from="1543719397895" duration="378000" />
+      <workItem from="1543719397895" duration="1115000" />
     </task>
     <task id="LOCAL-00001" summary="Runable Version">
       <created>1543638654160</created>
@@ -467,11 +461,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24751000" />
+    <option name="totallyTimeSpent" value="25488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -485,7 +478,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28174123" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25965664" sideWeight="0.49369368" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25965664" sideWeight="0.49369368" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -548,21 +541,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chromosome.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Chromosome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2614#2615#0" expanded="true" />
-            <element signature="e#2642#2643#0" expanded="true" />
-            <element signature="e#2683#2684#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CityData.csv">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/CityData.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
@@ -570,21 +563,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TSP.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/TSP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="27" column="61" lean-forward="false" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13631#13632#0" expanded="true" />
-            <element signature="e#13668#13669#0" expanded="true" />
-            <element signature="e#13706#13707#0" expanded="true" />
-            <element signature="e#13743#13744#0" expanded="true" />
+            <element signature="e#13652#13653#0" expanded="true" />
+            <element signature="e#13689#13690#0" expanded="true" />
+            <element signature="e#13727#13728#0" expanded="true" />
+            <element signature="e#13764#13765#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
@@ -592,23 +585,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/GeneticAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
           <caret line="78" column="14" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="14" />
@@ -618,47 +611,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmTest.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/GeneticAlgorithmTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/City.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/City.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chromosome.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Chromosome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2614#2615#0" expanded="true" />
-            <element signature="e#2642#2643#0" expanded="true" />
-            <element signature="e#2683#2684#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CityData.csv">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/CityData.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
@@ -666,7 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
@@ -674,34 +667,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/City.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/City.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/GeneticAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="78" column="14" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="14" />
@@ -711,50 +704,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmTest.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/GeneticAlgorithmTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TSP.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/TSP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13631#13632#0" expanded="true" />
-            <element signature="e#13668#13669#0" expanded="true" />
-            <element signature="e#13706#13707#0" expanded="true" />
-            <element signature="e#13743#13744#0" expanded="true" />
+            <element signature="e#13652#13653#0" expanded="true" />
+            <element signature="e#13689#13690#0" expanded="true" />
+            <element signature="e#13727#13728#0" expanded="true" />
+            <element signature="e#13764#13765#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chromosome.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Chromosome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2614#2615#0" expanded="true" />
-            <element signature="e#2642#2643#0" expanded="true" />
-            <element signature="e#2683#2684#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CityData.csv">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/CityData.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="6" />
@@ -762,7 +755,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
@@ -770,34 +763,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/City.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/City.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/GeneticAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
           <caret line="78" column="14" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="14" />
@@ -807,31 +800,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmTest.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/GeneticAlgorithmTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TSP.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/TSP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="53" column="43" lean-forward="false" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13631#13632#0" expanded="true" />
-            <element signature="e#13668#13669#0" expanded="true" />
-            <element signature="e#13706#13707#0" expanded="true" />
-            <element signature="e#13743#13744#0" expanded="true" />
+            <element signature="e#13652#13653#0" expanded="true" />
+            <element signature="e#13689#13690#0" expanded="true" />
+            <element signature="e#13727#13728#0" expanded="true" />
+            <element signature="e#13764#13765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -850,88 +843,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Integer.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java" />
-    <entry file="file://$PROJECT_DIR$/src/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="61" lean-forward="false" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#13631#13632#0" expanded="true" />
-            <element signature="e#13668#13669#0" expanded="true" />
-            <element signature="e#13706#13707#0" expanded="true" />
-            <element signature="e#13743#13744#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CityData.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chromosome.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Chromosome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2614#2615#0" expanded="true" />
-            <element signature="e#2642#2643#0" expanded="true" />
-            <element signature="e#2683#2684#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Boston.java" />
-    <entry file="file://$PROJECT_DIR$/src/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/GeneticAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-471">
           <caret line="78" column="14" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="14" />
@@ -941,18 +870,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/CityData.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="180">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GA.java">
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/GA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/TSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#13652#13653#0" expanded="true" />
+            <element signature="e#13689#13690#0" expanded="true" />
+            <element signature="e#13727#13728#0" expanded="true" />
+            <element signature="e#13764#13765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/GeneticAlgorithmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GA_Package/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm Project/src/com/company/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm Project/src/com/company/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm Project/src/com/company/Enviroment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm Project/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

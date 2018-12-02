@@ -1,8 +1,7 @@
-import javax.swing.text.AsyncBoxView;
-import java.awt.*;
+package GA_Package;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public abstract class GeneticAlgorithm {
 

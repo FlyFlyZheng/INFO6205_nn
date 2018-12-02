@@ -1,9 +1,8 @@
-package com.company;
-
 import java.util.Random;
+public class Environment {
 
-public class Enviroment {
-    public Enviroment(){
+
+    public Environment(){
 
     }
 
@@ -20,10 +19,10 @@ public class Enviroment {
         }
 
         for(int i=0;i<x;i++){
-            map[0][i].setStatus(Point.ISWALL);
-            map[y][i].setStatus(Point.ISWALL);
-            map[i][0].setStatus(Point.ISWALL);
-            map[i][x].setStatus(Point.ISWALL);
+            map[0][i].setStatus(Point.IS_WALL);
+            map[y][i].setStatus(Point.IS_WALL);
+            map[i][0].setStatus(Point.IS_WALL);
+            map[i][x].setStatus(Point.IS_WALL);
         }
 
 
@@ -35,7 +34,7 @@ public class Enviroment {
         while(NumberOfCups<=25){
             int randomX=random.nextInt(12);
             int randomY=random.nextInt(12);
-            map[randomX][randomY].setStatus(Point.HASCUP);
+            map[randomX][randomY].setStatus(Point.IS_WALL);
 
         }
 

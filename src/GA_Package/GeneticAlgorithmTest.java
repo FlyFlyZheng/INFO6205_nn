@@ -1,3 +1,5 @@
+package GA_Package;
+
 public class GeneticAlgorithmTest extends GeneticAlgorithm{
 
     public static final int NUM = 1 << 24;
