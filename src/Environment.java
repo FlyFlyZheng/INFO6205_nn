@@ -1,44 +1,45 @@
 import java.util.Random;
 public class Environment {
 
+    Point[][] map;
 
     public Environment(){
 
     }
 
     public void generateMap(){
-        int x= Config.lengthX;
-        int y= Config.lengthY;
+        int len= Config.LENGTH;
+        map = new Point[len][len];
 
-        Point[][] map = new Point[x][y];
-
-        for(int i=0;i<x;i++){
-            for(int j=0;j<y;j++){
+        for(int i=0;i<len;i++){
+            for(int j=0;j<len;j++){
                 map[i][j] = new Point(i,j);
             }
         }
 
-        for(int i=0;i<x;i++){
-            map[0][i].setStatus(Point.IS_WALL);
-            map[y][i].setStatus(Point.IS_WALL);
-            map[i][0].setStatus(Point.IS_WALL);
-            map[i][x].setStatus(Point.IS_WALL);
-        }
+        //set wall
+//        for(int i=0;i<len;i++){
+//            map[0][i].setStatus(Point.IS_WALL);
+//            map[len-1][i].setStatus(Point.IS_WALL);
+//            map[i][0].setStatus(Point.IS_WALL);
+//            map[i][len-1].setStatus(Point.IS_WALL);
+//        }
 
-
+        //set random cup
         Random random= new Random();
-
-
-
         int NumberOfCups =0;
-        while(NumberOfCups<=25){
-            int randomX=random.nextInt(12);
-            int randomY=random.nextInt(12);
-            map[randomX][randomY].setStatus(Point.IS_WALL);
-
+        while(NumberOfCups<=Config.CUP_NUM) {
+            int randomX = random.nextInt(len);
+            int randomY = random.nextInt(len);
+            map[randomX][randomY].setStatus(Point.CUP);
+            NumberOfCups++;
         }
-
-
     }
 
+    public void printMap(){
+        int len = Config.LENGTH;
+        for(int i=0; i<len; i++){
+
+        }
+    }
 }

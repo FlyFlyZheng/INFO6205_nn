@@ -5,7 +5,7 @@ public class Point {
         this.status=IS_EMPLY;
     }
 
-    public final static int IS_WALL=0;
+    //public final static int IS_WALL=0;
     public final static int IS_EMPLY=1;
     public final static int CUP =2;
 
