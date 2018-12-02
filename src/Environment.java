@@ -2,13 +2,13 @@ import java.util.Random;
 public class Environment {
 
     Point[][] map;
-
+    int len= Config.LENGTH;
     public Environment(){
 
     }
 
     public void generateMap(){
-        int len= Config.LENGTH;
+
         map = new Point[len][len];
 
         for(int i=0;i<len;i++){
@@ -27,13 +27,27 @@ public class Environment {
 
         //set random cup
         Random random= new Random();
-        int NumberOfCups =0;
-        while(NumberOfCups<=Config.CUP_NUM) {
+
+
+        while(calculateCupNumber(map)<=Config.CUP_NUM) {
             int randomX = random.nextInt(len);
             int randomY = random.nextInt(len);
+
             map[randomX][randomY].setStatus(Point.CUP);
-            NumberOfCups++;
+
         }
+    }
+        private int calculateCupNumber(Point[][] map){
+        int res=0;
+        for(int i=0;i<len;i++){
+            for(int j=0;j<len;j++){
+                if(map[i][j].getStatus()==Point.CUP){
+                    res++;
+                }
+            }
+        }
+         return res;
+
     }
 
     public void printMap(){
